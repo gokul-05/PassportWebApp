@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Online Passport Home</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <script src="js/jquery.validate.min.js"></script>
+  <script src="js/script.js"></script>
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+
+
+
+<body>
+
+  <nav class="nav nav-pills navbar-fixed-top" style="background-color: rgb(237, 234, 255);height: auto;">
+  <div class="container" >
+    <div class="navbar-header " style="width: 100%;">
+      <h2 class="h2-design">Online Passport Registration</h2>
+      
+    </div>
+
+    <button type="button" class="navbar-toggle" id="menu-mobile" data-toggle="collapse" data-target="#myNavbar"  style="background-color: white;margin: 40px 10px; float: left;">
+            <span class="sr-only" >Toggle navigation</span><i class="fa fa-bars"></i>
+    </button> 
+
+  </div>
+
+  
+  <div class="collapse navbar-collapse" id="myNavbar">
+
+  <div class="container">
+      <ul class="nav navbar-nav hov-nav">
+        <li><a href="#">HOME</a></li>
+        <li><a href="#">ABOUT US</a></li>
+        <li><a href="#">PASSPORT OFFICES</a></li>
+        <li><a href="#">CONSULAR SERVICES</a></li>
+        <li><a href="#">VISA SERVICES</a></li>
+        <li><a href="#">RTI</a></li>
+        <li><a href="#">CONTACT US</a></li>
+      </ul>
+      
+    </div>
+
+  </div>
+
+  </nav>
+<div class="container-fluid con-mar " id="con-mb">
+    <div class="col-sm-12 col-md-12">
+      <marquee>52 POPSKs have been made operational in the Country. ** Please refer 'Passport Office Page' for more details.</marquee>
+    </div>
+</div>
+
+
+ <div class="container ">
+
+ <div class="mobileType">
+   
+ </div>
+
+<form action="UserRegistration" method="POST">
+
+ Name:<br>
+  <input name="name" type="text" placeholder="Enter your name..." required>
+  <br><br>
+
+  Age:<br>
+  <input name="age" type="number" placeholder="Enter your age..." onKeyPress="if(this.value.length==3) return false;" required>
+  <br><br>
+
+  DOB:<br>
+  <input name="date" type="date" required>
+  <br><br>
+
+  Birth place:<br>
+  <input name="birthplace" type="text" placeholder="Enter your place of birth..." required>
+  <br><br>
+
+  Gender:<br>
+  <input type="radio" name="gender" value="male" required> Male
+  <input type="radio" name="gender" value="female" required> Female
+  <input type="radio" name="gender" value="others" required> Others
+  <br><br>
+
+
+  Father Name:<br>
+  <input name="fathername" type="text" placeholder="Enter your Father name..." required>
+  <br><br>
+
+  Mother Name:<br>
+  <input name="mothername" type="text" placeholder="Enter your Mother name..." required>
+  <br><br>
+
+  Aadhar card:<br>
+  <input name="aadhar" type="number" placeholder="Enter your Aadhar card number..." onKeyPress="if(this.value.length==12) return false;" required>
+  <br><br>
+
+  Mobile Number:<br>
+  <input name="mobile" type="number" placeholder="Enter your mobile number..." onKeyPress="if(this.value.length==10) return false;" required>
+  <br><br>
+
+  Address:<br>
+  <textarea name="address" placeholder="Enter your address..." required></textarea>
+  <br><br>
+
+  Passport type:<br>
+  <input id="normalAction" type="radio" name="passporttype"  value="normal" required> Normal
+  <input id="tatkaalAction" type="radio" name="passporttype" value="tatkaal" required> Tatkaal
+  <br><br>
+
+
+    <p class="normalVal">Duration taken for Passport Issue is 30 days<br><br></p>
+
+    <p class="tatkaalVal">Duration taken for Passport Issue is 10 days<br><br></p>
+
+    <button type="submit" class="btn-pd">Next</button>    
+	<input type="reset" class="btn-pd" value="Reset">
+    
+</form> 
+    
+ </div>
+
+</body>
+<footer>
+   <nav class="navbar navbar-inverse navbar-fixed-bottom navbarbottom" >
+  
+  <div>
+    <p>© Content Owned by <b><i>Pranion Technology Ventures Pvt. Ltd.</i></b></p>
+    <p>Site Maintained by <strong><i> GokulPrasath Appusamy</i></strong></p>
+  </div>
+  <div class="clear"></div>
+
+</nav>
+</footer>
+
+</html>

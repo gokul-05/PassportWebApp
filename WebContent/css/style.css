@@ -1,0 +1,86 @@
+.h2-design{
+    color: blue;
+    text-align: center;
+    margin-top: 10px;    
+    padding-left: 30px;
+}
+#myNavbar{
+  background-color: #37379c;
+}
+.nav>li>a:hover {
+    text-decoration: none;
+    background-color: #000;
+}
+.nav>li>a {
+    position: relative;
+    display: block;
+    padding: 10px 15px;
+    color: white;
+}
+.navbar-toggle {
+    position: relative;
+    float: right;
+    padding: 9px 10px;
+    margin: 10px 0px !important;
+    background-color: transparent;
+    background-image: none;
+    border: 1px solid transparent;
+    border-radius: 4px;
+}
+.con-mar{
+  margin-top: 93px;
+  background-color: #f9cccc;
+  
+} 
+.btn-pd{
+    padding: 5px 15px;
+    color: #fff;
+    background-color: #4CAF50;
+    border-color: #4CAF50;
+}
+.h3-design{
+  margin-bottom: 30px;
+}
+.login{
+  margin-left: 70px;
+}
+.navbarbottom {
+    color: white;
+    text-align: center;
+    font-size: 12px;
+    padding-top: 10px;
+    line-height: 1;
+}
+.m-pd{
+  padding: 5px 15px;
+  color: #fff;
+  background-color: #4CAF50;
+  border-color: #4CAF50;
+}
+.normalVal,.tatkaalVal
+{
+  display:none;
+}
+body{
+  margin-bottom: 70px; 
+}
+@media only screen and (max-width: 576px) {
+    .mobileType{
+        margin-top:0px;
+    }
+    #con-mb{
+    margin-top: 146px;
+    background-color: #f9cccc;
+    }
+    body{
+      margin-bottom: 70px;
+    }
+}
+@media only screen and (max-width: 992px) {
+    #menu-mobile{
+    background-color: white;
+    margin: 10px 20px;
+    float: right;
+    }
+}
+
